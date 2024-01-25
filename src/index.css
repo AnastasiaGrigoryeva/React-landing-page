@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: 
+    url('./font/CircularStd-Medium.otf') format('oft');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  font-weight: normal;
+  font-style: normal;
+}
+#root{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family:'Circular Std', sans-serif;
+  position: relative;
+  padding: 0px;
+}
+.App{
+  height: 100vh;
+  margin: 0;
+}
+

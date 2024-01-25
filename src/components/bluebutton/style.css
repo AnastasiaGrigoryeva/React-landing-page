@@ -1,0 +1,19 @@
+.blue-button{
+    color: #222831;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 16px 32px;
+    gap: 8px;
+    border-radius: 100px;
+}
+.blue-button:hover{
+    background: #5D50C6;
+    color: #fff;
+}

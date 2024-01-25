@@ -1,0 +1,159 @@
+.point-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    background: url('../../assets//yellow.svg') left bottom 18px / 705px 550px no-repeat;
+    margin-bottom: 128px;
+}
+.image-overlay.percent {
+    font-family: 'Circular Std', sans-serif;
+    color: #191825;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    right: 0;
+    top: 131px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02), 0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0.00), 0px 385px 108px 0px rgba(0, 0, 0, 0.00);
+}
+.image-overlay.circil-one{
+    position: absolute;
+    right: 109.9px;
+    top: 0px;
+}
+.image-overlay.circil-two{
+    position: absolute;
+    right: 14.96px;
+    top: 200px;
+}
+.image-overlay.circil-three{
+    position: absolute;
+    right: 201.68px;
+    top: 299px;
+}
+.image-overlay.circil-four{
+    position: absolute;
+    right: 125.68px;
+    bottom: 205.68px;
+}
+.image-overlay.circil-five{
+    position: absolute;
+    left: 72px;
+    top: 105px;
+}
+.travel-title{
+    max-width: 445px;
+}
+.travel-caption{
+    color: #F85E9F;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 4.6px;
+    text-transform: uppercase;
+    align-self: stretch;
+    margin-bottom: 16px;
+}
+.travel-header{
+    color: #191825;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    align-self: stretch;
+    margin-bottom: 32px;
+}
+.travel-text{
+    color: rgba(25, 24, 37, 0.50);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.travel-number{
+    color: #FF5722;
+    font-family: 'Circular Std', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.travel-point{
+    color: #191825;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+.travel-item {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 32px;
+    border: 1px solid rgba(25, 24, 37, 0.10);
+    background: #FFF;
+    width: 142px;
+}
+.travel-item.holiday,
+.travel-item.airline{
+    margin-right: 32px;
+}
+.travel-item.airline,
+.travel-item.custom{
+    margin-top: 32px;
+}
+.travel-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 42px;
+}
+.travel-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    max-height: 350px;
+    margin-top: 64px;
+}
+.travel-point-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+.image-overlay.ticket{
+    display: inline-flex;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    position: absolute;
+    justify-content: flex-end;
+    right: -65px;
+    top: -56px;
+    border-radius: 100px;
+    background: #FACD49;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.03), 0px 15px 34px 0px rgba(0, 0, 0, 0.03), 0px 62px 62px 0px rgba(0, 0, 0, 0.02), 0px 139px 83px 0px rgba(0, 0, 0, 0.01), 0px 246px 99px 0px rgba(0, 0, 0, 0.00), 0px 385px 108px 0px rgba(0, 0, 0, 0.00);
+    position: absolute;
+}
+.point-image{
+    position: relative;
+}

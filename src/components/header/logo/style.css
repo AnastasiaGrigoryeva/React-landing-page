@@ -1,0 +1,13 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo-title{
+    margin-left: 16px;
+    color: var(--Black, #191825);
+    font-family: 'Circular Std', sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+}
